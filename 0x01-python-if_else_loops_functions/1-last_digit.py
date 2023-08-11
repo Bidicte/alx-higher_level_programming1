@@ -8,8 +8,5 @@ if(the_last_digit > 5):
 elif(the_last_digit < 6 and the_last_digit != 0):
         print(f"Last digit of {number:d} is -{the_last_digit}
         and is less than 6 and not 0")
-elif(number < 0 and the_last_digit < 6 and the_last_digit != 0):
-                print(f"Last digit of {number:d}
-                is -{the_last_digit} and is less than 6 and not 0")
 else:
         print(f"Last digit of {number:d} is {the_last_digit} and is 0")
