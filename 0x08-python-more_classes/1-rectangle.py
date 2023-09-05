@@ -12,7 +12,7 @@ class Rectangle:
             width (int): the width of the new rectangle
             height (int): the height of the new rectangle
         """
-        self.__width = width,
+        self.__width = width
         self.__height = height
 
     @property
