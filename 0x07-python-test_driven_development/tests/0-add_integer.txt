@@ -1,3 +1,15 @@
+"""
+A function that adds 2 integers.
+
+Args:
+    a: must be an integer
+    b: must be an integer
+    
+Raises:
+     TypeError: if either a or b is not an instger
+
+Examples:
+
 >>> add_integer = __import__('0-add_integer').add_integer
 
 >>> add_integer(0, 0)
