@@ -9,6 +9,10 @@ def add_integer(a, b=98):
 
     Raises:
          TypeError: if either a or b is not an integer
+
+    Examples:
+    >>> add_integer(15, 0)
+    15
     """
 
     if not isinstance(a, int) and not isinstance(a, float):
