@@ -5,6 +5,8 @@ def add_integer(a, b=98):
     Args:
         a: must be an integer
         b: must be an integer
+    Raises:
+         TypeError if a or b is not an integer
     """
     if not isinstance(a, int) and not isinstance(a, float):
         raise TypeError("a must be an integer")
