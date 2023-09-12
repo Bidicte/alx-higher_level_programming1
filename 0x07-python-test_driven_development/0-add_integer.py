@@ -13,14 +13,21 @@ def add_integer(a, b=98):
           TypeError: if a, b are neither int nor float.
 
     Returns:
-           sum of a and b.
+           int: sum of a and b.
     """
-    if type(a) not in (int, float):
+    if not isinstance(a, int) and not isinstance(a, float):
         raise TypeError("a must be an integer")
-    elif type(b) not in (int, float):
+    
+    if not isinstance(b, float) and not isinstance(b, float):
         raise TypeError("b must be an integer")
-    else:
-        return int(a) + int(b)
+    
+    if isinstance(a, float):
+        a = int(a)
+
+    if isinstance(b, float):
+        b = int(b)
+        
+    return int(a) + int(b)
 
 if __name__ == "__main__":
     import doctest
