@@ -22,6 +22,8 @@ that value is equivalent to using the ``+`` operator.
     >>> add_integer(100, -2)
     98
 
+The second argument is optional - by default, it is 98.
+
 ::
     >>> add_integer(2)
     100
@@ -31,6 +33,12 @@ It also works with floating-point values.
 ::
     >>> add_integer(100.3, -2)
     98
+
+Non-Numbers
+===========
+
+``add_integer()`` expects that both arguments are either integers or floats.
+If either argument is a non-integer and non-float, a TypeError is raised:
 
 ::
     >>> add_integer(4, "School")
