@@ -4,11 +4,10 @@
 How to Use 0-add_integer.py
 ===============================
 
-This module is very simple, since it only has one function called
-``add_integer(a, b=98)``.
+This module defines an integer addition function ``add_integer(a, b=98)``.
 
-Numbers
-=======
+Usage
+=====
 
 ``add_integer(a, b=98)`` returns the addition of its arguments.  For numbers,
 that value is equivalent to using the ``+`` operator.
